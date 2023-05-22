@@ -5,7 +5,7 @@ var curser = document.createElement('div');
 curser.className = 'curser'
 background.append(curser);
 
-for (var i = 0; i < 15; i++) {
+for (var i = 0; i < 20; i++) {
     var row = document.createElement('div');
     row.className = 'row';
 
@@ -21,7 +21,7 @@ for (var i = 0; i < 15; i++) {
 document.body.appendChild(background);
 
 setInterval(function() {
-    for (var i = 0; i < 15; i++) {
+    for (var i = 0; i < 20; i++) {
         var row = document.getElementsByClassName('row')[i];
        
         for (var j = 0; j < 20; j++) {
