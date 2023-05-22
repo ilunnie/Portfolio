@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/celular.css">
+    <link rel="stylesheet" href="css/checkbox.css">
+</head>
+
+<body>
+
+    <div class="content">
+        <div class="perfil">
+            <img src="img/Photo.png">
+            <div class="about_me">
+                <h1>Hi, I'm <strong>Luis Gustavo</strong>.</h1>
+                <h2>A Technical Apprentice In Systems Development</h2>
+                <div id="brasil">
+                    <h2>Living in <strong>Brazil</strong></h2>
+                    <img src="img/Brasil.png">
+                </div>
+            </div>
+        </div>
+        <div class="paint_config">
+            <h1>DESENHE NESSA PAGINA</h1>
+            <input type="range" id="size" min="1" max="100" value="10">
+            <label class="switch" for="checkbox">
+                <div id="start_paint">
+                    <input type="checkbox" id="drawing">
+                    <div class="slider round"></div>
+                </div>
+            </label>
+        </div>
+        <div id="error_cel" style="display: none;">
+            <h1>
+                Open on your computer<br>for a better experience
+            </h1>
+        </div>
+        <div class="contact_me">
+            <a href="mailto:luisgustavocaris2004@gmail.com" target="_blank">
+                <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"
+                    target="_blank">
+            </a>
+            <a href="https://discordapp.com/users/379063621776441345" target="_blank">
+                <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white">
+            </a>
+            <a href="https://github.com/ilunnie" target="_blank">
+                <img src="https://img.shields.io/badge/GitHub-FFFFFF?style=for-the-badge&logo=github&logoColor=black">
+            </a>
+        </div>
+    </div>
+
+</body>
+
+<script>
+    document.querySelector('.slider.round').addEventListener('click', function () {
+        document.querySelector('#drawing').click();
+    });
+</script>
+
+<!-- PAINT -->
+<link rel="stylesheet" href="css/paint.css">
+<script src="js/paint.js"></script>
+<script src="js/mouse-paint.js"></script>
+
+<!-- BACKGROUND EFFECT -->
+<link rel="stylesheet" href="css/background.css">
+<script src="js/hexagon-generate.js"></script>
+<script src="js/mouse-effect.js"></script>
+
+</html>

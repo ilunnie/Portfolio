@@ -1,0 +1,69 @@
+@media (max-width: 600px) {
+
+    #mouse-paint {
+        display: none;
+    }
+
+    .perfil {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+    }
+
+    .perfil img {
+        display: none;
+    }
+
+    .about_me {
+        padding: 10px;
+    }
+
+    .about_me img {
+        display: block;
+    }
+
+    .about_me h1 {
+        font-size: 3rem;
+    }
+
+    #brasil {
+        display: flex;
+        height: 25px;
+    }
+
+    .about_me h2 {
+        font-size: 1.5rem;
+    }
+
+    .about_me img {
+        margin-top: 5px;
+        margin-left: 10px;
+        height: 100%;
+        width: auto;
+    }
+
+    .paint_config {
+        display: none;
+    }
+
+    #error_cel {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        margin-top: auto;
+        margin-bottom: 100px;
+    }
+
+    #error_cel h1 {
+        font-size: 2.5rem;
+    }
+
+    .contact_me {
+        bottom: 1%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        justify-content: center;
+    }
+}
